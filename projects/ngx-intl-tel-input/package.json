@@ -36,6 +36,10 @@
 		"url": "https://github.com/webcat12345/ngx-intl-tel-input/issues"
 	},
 	"devDependencies": {
-		"@types/google-libphonenumber": "^7.4.17"
+		"@types/google-libphonenumber": "^7.4.17",
+		"ngx-mask": "^13.1.1"
+	},
+	"dependencies": {
+		"ngx-mask": "^13.1.1"
 	}
 }

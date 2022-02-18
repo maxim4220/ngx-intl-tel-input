@@ -1,6 +1,7 @@
 import * as lpn from 'google-libphonenumber';
 
 import {
+	ChangeDetectorRef,
 	Component,
 	ElementRef,
 	EventEmitter,
@@ -62,6 +63,7 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	@Input() phoneValidation = true;
 	@Input() inputId = 'phone';
 	@Input() separateDialCode = false;
+	@Input() defaultPhoneMask = '00 00 00 00';
 	separateDialCodeClass: string;
 
 	@Output() readonly countryChange = new EventEmitter<Country>();
@@ -85,13 +87,14 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	disabled = false;
 	errors: Array<any> = ['Phone number is required.'];
 	countrySearchText = '';
+	public phoneMask = this.defaultPhoneMask;
 
 	@ViewChild('countryList') countryList: ElementRef;
 
 	onTouched = () => {};
 	propagateChange = (_: ChangeData) => {};
 
-	constructor(private countryCodeData: CountryCode) {
+	constructor(private countryCodeData: CountryCode, private cdr: ChangeDetectorRef) {
 		// If this is not set, ngx-bootstrap will try to use the bs3 CSS (which is not what we've embedded) and will
 		// Add the wrong classes and such
 		setTheme('bs4');
@@ -273,6 +276,11 @@ export class NgxIntlTelInputComponent implements OnInit, OnChanges {
 	}
 
 	public onCountrySelect(country: Country, el): void {
+		const countryPlaceholder = country.placeHolder.replace(/[0-9]/g, '0');
+		if(countryPlaceholder) {
+			this.phoneMask = countryPlaceholder;
+			this.cdr.markForCheck();
+		}
 		this.setSelectedCountry(country);
 
 		this.checkSeparateDialCodeStyle();

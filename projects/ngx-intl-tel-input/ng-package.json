@@ -8,5 +8,8 @@
       "ngx-bootstrap": "^6.0.0",
       "ngx-bootstrap/dropdown": "ngx-bootstrap-dropdown"
     }
-  }
+  },
+	"allowedNonPeerDependencies": [
+		"ngx-mask"
+	]
 }

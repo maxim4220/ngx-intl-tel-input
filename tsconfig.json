@@ -24,6 +24,9 @@
 			],
 			"ngx-intl-tel-input/*": [
 				"dist/ngx-intl-tel-input/*"
+			],
+			"ngx-mask": [
+				"node_modules/ngx-mask"
 			]
 		}
 	}
