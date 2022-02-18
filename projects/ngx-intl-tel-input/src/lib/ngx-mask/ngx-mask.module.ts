@@ -12,7 +12,7 @@ import { MaskPipe } from './mask.pipe';
 })
 export class NgxMaskModule {
 
-  public static forRoot(configValue?: optionsConfig): any {
+  public static forRoot(configValue?: optionsConfig): ModuleWithProviders<any> {
     return {
       ngModule: NgxMaskModule,
       providers: [
@@ -32,7 +32,7 @@ export class NgxMaskModule {
       ]
     };
   }
-  public static forChild(configValue?: optionsConfig): any {
+  public static forChild(configValue?: optionsConfig): ModuleWithProviders<any> {
     return {
       ngModule: NgxMaskModule,
     };
