@@ -6,6 +6,105 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { DOCUMENT, CommonModule } from '@angular/common';
 import { __awaiter } from 'tslib';
 
+import * as ɵngcc0 from '@angular/core';
+import * as ɵngcc1 from '@angular/common';
+import * as ɵngcc2 from 'ngx-bootstrap/dropdown';
+import * as ɵngcc3 from '@angular/forms';
+
+const _c0 = ["countryList"];
+function NgxIntlTelInputComponent_div_4_Template(rf, ctx) { if (rf & 1) {
+    ɵngcc0.ɵɵelementStart(0, "div", 9);
+    ɵngcc0.ɵɵtext(1);
+    ɵngcc0.ɵɵelementEnd();
+} if (rf & 2) {
+    const ctx_r0 = ɵngcc0.ɵɵnextContext();
+    ɵngcc0.ɵɵadvance(1);
+    ɵngcc0.ɵɵtextInterpolate1("+", ctx_r0.selectedCountry.dialCode, "");
+} }
+function NgxIntlTelInputComponent_div_6_div_1_Template(rf, ctx) { if (rf & 1) {
+    const _r9 = ɵngcc0.ɵɵgetCurrentView();
+    ɵngcc0.ɵɵelementStart(0, "div", 17);
+    ɵngcc0.ɵɵelementStart(1, "input", 18);
+    ɵngcc0.ɵɵlistener("ngModelChange", function NgxIntlTelInputComponent_div_6_div_1_Template_input_ngModelChange_1_listener($event) { ɵngcc0.ɵɵrestoreView(_r9); const ctx_r8 = ɵngcc0.ɵɵnextContext(2); return ctx_r8.countrySearchText = $event; })("keyup", function NgxIntlTelInputComponent_div_6_div_1_Template_input_keyup_1_listener() { ɵngcc0.ɵɵrestoreView(_r9); const ctx_r10 = ɵngcc0.ɵɵnextContext(2); return ctx_r10.searchCountry(); })("click", function NgxIntlTelInputComponent_div_6_div_1_Template_input_click_1_listener($event) { return $event.stopPropagation(); });
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementEnd();
+} if (rf & 2) {
+    const ctx_r3 = ɵngcc0.ɵɵnextContext(2);
+    ɵngcc0.ɵɵadvance(1);
+    ɵngcc0.ɵɵproperty("ngModel", ctx_r3.countrySearchText)("placeholder", ctx_r3.searchCountryPlaceholder);
+} }
+function NgxIntlTelInputComponent_div_6_li_4_Template(rf, ctx) { if (rf & 1) {
+    const _r14 = ɵngcc0.ɵɵgetCurrentView();
+    ɵngcc0.ɵɵelementStart(0, "li", 19);
+    ɵngcc0.ɵɵlistener("click", function NgxIntlTelInputComponent_div_6_li_4_Template_li_click_0_listener() { const restoredCtx = ɵngcc0.ɵɵrestoreView(_r14); const country_r12 = restoredCtx.$implicit; const ctx_r13 = ɵngcc0.ɵɵnextContext(2); const _r2 = ɵngcc0.ɵɵreference(8); return ctx_r13.onCountrySelect(country_r12, _r2); });
+    ɵngcc0.ɵɵelementStart(1, "div", 20);
+    ɵngcc0.ɵɵelement(2, "div", 3);
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementStart(3, "span", 21);
+    ɵngcc0.ɵɵtext(4);
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementStart(5, "span", 22);
+    ɵngcc0.ɵɵtext(6);
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementEnd();
+} if (rf & 2) {
+    const country_r12 = ctx.$implicit;
+    ɵngcc0.ɵɵproperty("id", country_r12.htmlId + "-preferred");
+    ɵngcc0.ɵɵadvance(2);
+    ɵngcc0.ɵɵproperty("ngClass", country_r12.flagClass);
+    ɵngcc0.ɵɵadvance(2);
+    ɵngcc0.ɵɵtextInterpolate(country_r12.name);
+    ɵngcc0.ɵɵadvance(2);
+    ɵngcc0.ɵɵtextInterpolate1("+", country_r12.dialCode, "");
+} }
+function NgxIntlTelInputComponent_div_6_li_5_Template(rf, ctx) { if (rf & 1) {
+    ɵngcc0.ɵɵelement(0, "li", 23);
+} }
+function NgxIntlTelInputComponent_div_6_li_6_Template(rf, ctx) { if (rf & 1) {
+    const _r17 = ɵngcc0.ɵɵgetCurrentView();
+    ɵngcc0.ɵɵelementStart(0, "li", 24);
+    ɵngcc0.ɵɵlistener("click", function NgxIntlTelInputComponent_div_6_li_6_Template_li_click_0_listener() { const restoredCtx = ɵngcc0.ɵɵrestoreView(_r17); const country_r15 = restoredCtx.$implicit; const ctx_r16 = ɵngcc0.ɵɵnextContext(2); const _r2 = ɵngcc0.ɵɵreference(8); return ctx_r16.onCountrySelect(country_r15, _r2); });
+    ɵngcc0.ɵɵelementStart(1, "div", 20);
+    ɵngcc0.ɵɵelement(2, "div", 3);
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementStart(3, "span", 21);
+    ɵngcc0.ɵɵtext(4);
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementStart(5, "span", 22);
+    ɵngcc0.ɵɵtext(6);
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementEnd();
+} if (rf & 2) {
+    const country_r15 = ctx.$implicit;
+    ɵngcc0.ɵɵproperty("id", country_r15.htmlId);
+    ɵngcc0.ɵɵadvance(2);
+    ɵngcc0.ɵɵproperty("ngClass", country_r15.flagClass);
+    ɵngcc0.ɵɵadvance(2);
+    ɵngcc0.ɵɵtextInterpolate(country_r15.name);
+    ɵngcc0.ɵɵadvance(2);
+    ɵngcc0.ɵɵtextInterpolate1("+", country_r15.dialCode, "");
+} }
+function NgxIntlTelInputComponent_div_6_Template(rf, ctx) { if (rf & 1) {
+    ɵngcc0.ɵɵelementStart(0, "div", 10);
+    ɵngcc0.ɵɵtemplate(1, NgxIntlTelInputComponent_div_6_div_1_Template, 2, 2, "div", 11);
+    ɵngcc0.ɵɵelementStart(2, "ul", 12, 13);
+    ɵngcc0.ɵɵtemplate(4, NgxIntlTelInputComponent_div_6_li_4_Template, 7, 4, "li", 14);
+    ɵngcc0.ɵɵtemplate(5, NgxIntlTelInputComponent_div_6_li_5_Template, 1, 0, "li", 15);
+    ɵngcc0.ɵɵtemplate(6, NgxIntlTelInputComponent_div_6_li_6_Template, 7, 4, "li", 16);
+    ɵngcc0.ɵɵelementEnd();
+    ɵngcc0.ɵɵelementEnd();
+} if (rf & 2) {
+    const ctx_r1 = ɵngcc0.ɵɵnextContext();
+    ɵngcc0.ɵɵadvance(1);
+    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.searchCountryFlag && ctx_r1.searchCountryField);
+    ɵngcc0.ɵɵadvance(3);
+    ɵngcc0.ɵɵproperty("ngForOf", ctx_r1.preferredCountriesInDropDown);
+    ɵngcc0.ɵɵadvance(1);
+    ɵngcc0.ɵɵproperty("ngIf", ctx_r1.preferredCountriesInDropDown == null ? null : ctx_r1.preferredCountriesInDropDown.length);
+    ɵngcc0.ɵɵadvance(1);
+    ɵngcc0.ɵɵproperty("ngForOf", ctx_r1.allCountries);
+} }
+const _c1 = function (a0) { return { "disabled": a0 }; };
 var CountryISO;
 (function (CountryISO) {
     CountryISO["Afghanistan"] = "af";
@@ -1577,9 +1676,11 @@ class CountryCode {
         ];
     }
 }
-CountryCode.decorators = [
-    { type: Injectable }
-];
+CountryCode.ɵfac = function CountryCode_Factory(t) { return new (t || CountryCode)(); };
+CountryCode.ɵprov = /*@__PURE__*/ ɵngcc0.ɵɵdefineInjectable({ token: CountryCode, factory: CountryCode.ɵfac });
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(CountryCode, [{
+        type: Injectable
+    }], function () { return []; }, null); })();
 
 var SearchCountryField;
 (function (SearchCountryField) {
@@ -2085,28 +2186,51 @@ class NgxIntlTelInputComponent {
         }
     }
 }
-NgxIntlTelInputComponent.decorators = [
-    { type: Component, args: [{
-                // tslint:disable-next-line: component-selector
-                selector: 'ngx-intl-tel-input',
-                template: "<div class=\"iti iti--allow-dropdown\"\n\t[ngClass]=\"separateDialCodeClass\">\n\t<div class=\"iti__flag-container\"\n\t\tdropdown\n\t\t[ngClass]=\"{'disabled': disabled}\"\n\t\t[isDisabled]=\"disabled\">\n\t\t<div class=\"iti__selected-flag dropdown-toggle\"\n\t\t\tdropdownToggle>\n\t\t\t<div class=\"iti__flag\"\n\t\t\t\t[ngClass]=\"selectedCountry?.flagClass\"></div>\n\t\t\t<div *ngIf=\"separateDialCode\"\n\t\t\t\tclass=\"selected-dial-code\">+{{selectedCountry.dialCode}}</div>\n\t\t\t<div class=\"iti__arrow\"></div>\n\t\t</div>\n\t\t<div *dropdownMenu\n\t\t\tclass=\"dropdown-menu country-dropdown\">\n\t\t\t<div class=\"search-container\"\n\t\t\t\t*ngIf=\"searchCountryFlag && searchCountryField\">\n\t\t\t\t<input id=\"country-search-box\"\n\t\t\t\t\t[(ngModel)]=\"countrySearchText\"\n\t\t\t\t\t(keyup)=\"searchCountry()\"\n\t\t\t\t\t(click)=\"$event.stopPropagation()\"\n\t\t\t\t\t[placeholder]=\"searchCountryPlaceholder\"\n\t\t\t\t\tautofocus>\n\t\t\t</div>\n\t\t\t<ul class=\"iti__country-list\"\n\t\t\t\t#countryList>\n\t\t\t\t<li class=\"iti__country iti__preferred\"\n\t\t\t\t\t*ngFor=\"let country of preferredCountriesInDropDown\"\n\t\t\t\t\t(click)=\"onCountrySelect(country, focusable)\"\n\t\t\t\t\t[id]=\"country.htmlId+'-preferred'\">\n\t\t\t\t\t<div class=\"iti__flag-box\">\n\t\t\t\t\t\t<div class=\"iti__flag\"\n\t\t\t\t\t\t\t[ngClass]=\"country.flagClass\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span class=\"iti__country-name\">{{country.name}}</span>\n\t\t\t\t\t<span class=\"iti__dial-code\">+{{country.dialCode}}</span>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"iti__divider\"\n\t\t\t\t\t*ngIf=\"preferredCountriesInDropDown?.length\"></li>\n\t\t\t\t<li class=\"iti__country iti__standard\"\n\t\t\t\t\t*ngFor=\"let country of allCountries\"\n\t\t\t\t\t(click)=\"onCountrySelect(country, focusable)\"\n\t\t\t\t\t[id]=\"country.htmlId\">\n\t\t\t\t\t<div class=\"iti__flag-box\">\n\t\t\t\t\t\t<div class=\"iti__flag\"\n\t\t\t\t\t\t\t[ngClass]=\"country.flagClass\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span class=\"iti__country-name\">{{country.name}}</span>\n\t\t\t\t\t<span class=\"iti__dial-code\">+{{country.dialCode}}</span>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n\t<input type=\"tel\"\n\t\t\t\t [mask]=\"phoneMask\"\n\t\t[id]=\"inputId\"\n\t\tautocomplete=\"off\"\n\t\t[ngClass]=\"cssClass\"\n\t\t(blur)=\"onTouched()\"\n\t\t(keypress)=\"onInputKeyPress($event)\"\n\t\t[(ngModel)]=\"phoneNumber\"\n\t\t(ngModelChange)=\"onPhoneNumberChange()\"\n\t\t[disabled]=\"disabled\"\n\t\t[placeholder]=\"resolvePlaceholder()\"\n\t\t[attr.maxLength]=\"maxLength\"\n\t\t[attr.validation]=\"phoneValidation\"\n\t\t#focusable>\n</div>\n",
-                providers: [
-                    CountryCode,
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        // tslint:disable-next-line:no-forward-ref
-                        useExisting: forwardRef(() => NgxIntlTelInputComponent),
-                        multi: true,
-                    },
-                    {
-                        provide: NG_VALIDATORS,
-                        useValue: ɵ0,
-                        multi: true,
-                    },
-                ],
-                styles: [".dropup,.dropright,.dropdown,.dropleft{position:relative}.dropdown-toggle{white-space:nowrap}.dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid;border-right:.3em solid transparent;border-bottom:0;border-left:.3em solid transparent}.dropdown-toggle:empty:after{margin-left:0}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.dropdown-menu-left{right:auto;left:0}.dropdown-menu-right{right:0;left:auto}@media (min-width: 576px){.dropdown-menu-sm-left{right:auto;left:0}.dropdown-menu-sm-right{right:0;left:auto}}@media (min-width: 768px){.dropdown-menu-md-left{right:auto;left:0}.dropdown-menu-md-right{right:0;left:auto}}@media (min-width: 992px){.dropdown-menu-lg-left{right:auto;left:0}.dropdown-menu-lg-right{right:0;left:auto}}@media (min-width: 1200px){.dropdown-menu-xl-left{right:auto;left:0}.dropdown-menu-xl-right{right:0;left:auto}}.dropup .dropdown-menu{top:auto;bottom:100%;margin-top:0;margin-bottom:.125rem}.dropup .dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:0;border-right:.3em solid transparent;border-bottom:.3em solid;border-left:.3em solid transparent}.dropup .dropdown-toggle:empty:after{margin-left:0}.dropright .dropdown-menu{top:0;right:auto;left:100%;margin-top:0;margin-left:.125rem}.dropright .dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid transparent;border-right:0;border-bottom:.3em solid transparent;border-left:.3em solid}.dropright .dropdown-toggle:empty:after{margin-left:0}.dropright .dropdown-toggle:after{vertical-align:0}.dropleft .dropdown-menu{top:0;right:100%;left:auto;margin-top:0;margin-right:.125rem}.dropleft .dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\"}.dropleft .dropdown-toggle:after{display:none}.dropleft .dropdown-toggle:before{display:inline-block;margin-right:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid transparent;border-right:.3em solid;border-bottom:.3em solid transparent}.dropleft .dropdown-toggle:empty:after{margin-left:0}.dropleft .dropdown-toggle:before{vertical-align:0}.dropdown-menu[x-placement^=top],.dropdown-menu[x-placement^=right],.dropdown-menu[x-placement^=bottom],.dropdown-menu[x-placement^=left]{right:auto;bottom:auto}.dropdown-divider{height:0;margin:.5rem 0;overflow:hidden;border-top:1px solid #e9ecef}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background-color:transparent;border:0}.dropdown-item:hover,.dropdown-item:focus{color:#16181b;text-decoration:none;background-color:#f8f9fa}.dropdown-item.active,.dropdown-item:active{color:#fff;text-decoration:none;background-color:#007bff}.dropdown-item.disabled,.dropdown-item:disabled{color:#6c757d;pointer-events:none;background-color:transparent}.dropdown-menu.show{display:block}.dropdown-header{display:block;padding:.5rem 1.5rem;margin-bottom:0;font-size:.875rem;color:#6c757d;white-space:nowrap}.dropdown-item-text{display:block;padding:.25rem 1.5rem;color:#212529}\n", "li.iti__country:hover{background-color:#0000000d}.iti__selected-flag.dropdown-toggle:after{content:none}.iti__flag-container.disabled{cursor:default!important}.iti.iti--allow-dropdown .flag-container.disabled:hover .iti__selected-flag{background:none}.country-dropdown{border:1px solid #ccc;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:1px;border-collapse:collapse}.search-container{position:relative}.search-container input{width:100%;border:none;border-bottom:1px solid #ccc;padding-left:10px}.search-icon{position:absolute;z-index:2;width:25px;margin:1px 10px}.iti__country-list{position:relative;border:none}.iti input#country-search-box{padding-left:6px}.iti .selected-dial-code{margin-left:6px}.iti.separate-dial-code .iti__selected-flag,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 .iti__selected-flag,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 .iti__selected-flag,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 .iti__selected-flag{width:93px}.iti.separate-dial-code input,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 input,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 input,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 input{padding-left:98px}\n"]
-            },] }
-];
+NgxIntlTelInputComponent.ɵfac = function NgxIntlTelInputComponent_Factory(t) { return new (t || NgxIntlTelInputComponent)(ɵngcc0.ɵɵdirectiveInject(CountryCode), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ChangeDetectorRef)); };
+NgxIntlTelInputComponent.ɵcmp = /*@__PURE__*/ ɵngcc0.ɵɵdefineComponent({ type: NgxIntlTelInputComponent, selectors: [["ngx-intl-tel-input"]], viewQuery: function NgxIntlTelInputComponent_Query(rf, ctx) { if (rf & 1) {
+        ɵngcc0.ɵɵviewQuery(_c0, 5);
+    } if (rf & 2) {
+        let _t;
+        ɵngcc0.ɵɵqueryRefresh(_t = ɵngcc0.ɵɵloadQuery()) && (ctx.countryList = _t.first);
+    } }, inputs: { value: "value", preferredCountries: "preferredCountries", enablePlaceholder: "enablePlaceholder", numberFormat: "numberFormat", cssClass: "cssClass", onlyCountries: "onlyCountries", enableAutoCountrySelect: "enableAutoCountrySelect", searchCountryFlag: "searchCountryFlag", searchCountryField: "searchCountryField", searchCountryPlaceholder: "searchCountryPlaceholder", maxLength: "maxLength", selectFirstCountry: "selectFirstCountry", phoneValidation: "phoneValidation", inputId: "inputId", separateDialCode: "separateDialCode", defaultPhoneMask: "defaultPhoneMask", customPlaceholder: "customPlaceholder", selectedCountryISO: "selectedCountryISO" }, outputs: { countryChange: "countryChange" }, features: [ɵngcc0.ɵɵProvidersFeature([
+            CountryCode,
+            {
+                provide: NG_VALUE_ACCESSOR,
+                // tslint:disable-next-line:no-forward-ref
+                useExisting: forwardRef(() => NgxIntlTelInputComponent),
+                multi: true
+            },
+            {
+                provide: NG_VALIDATORS,
+                useValue: ɵ0,
+                multi: true
+            },
+        ]), ɵngcc0.ɵɵNgOnChangesFeature], decls: 9, vars: 15, consts: [[1, "iti", "iti--allow-dropdown", 3, "ngClass"], ["dropdown", "", 1, "iti__flag-container", 3, "ngClass", "isDisabled"], ["dropdownToggle", "", 1, "iti__selected-flag", "dropdown-toggle"], [1, "iti__flag", 3, "ngClass"], ["class", "selected-dial-code", 4, "ngIf"], [1, "iti__arrow"], ["class", "dropdown-menu country-dropdown", 4, "dropdownMenu"], ["type", "tel", "autocomplete", "off", 3, "mask", "id", "ngClass", "ngModel", "disabled", "placeholder", "blur", "keypress", "ngModelChange"], ["focusable", ""], [1, "selected-dial-code"], [1, "dropdown-menu", "country-dropdown"], ["class", "search-container", 4, "ngIf"], [1, "iti__country-list"], ["countryList", ""], ["class", "iti__country iti__preferred", 3, "id", "click", 4, "ngFor", "ngForOf"], ["class", "iti__divider", 4, "ngIf"], ["class", "iti__country iti__standard", 3, "id", "click", 4, "ngFor", "ngForOf"], [1, "search-container"], ["id", "country-search-box", "autofocus", "", 3, "ngModel", "placeholder", "ngModelChange", "keyup", "click"], [1, "iti__country", "iti__preferred", 3, "id", "click"], [1, "iti__flag-box"], [1, "iti__country-name"], [1, "iti__dial-code"], [1, "iti__divider"], [1, "iti__country", "iti__standard", 3, "id", "click"]], template: function NgxIntlTelInputComponent_Template(rf, ctx) { if (rf & 1) {
+        ɵngcc0.ɵɵelementStart(0, "div", 0);
+        ɵngcc0.ɵɵelementStart(1, "div", 1);
+        ɵngcc0.ɵɵelementStart(2, "div", 2);
+        ɵngcc0.ɵɵelement(3, "div", 3);
+        ɵngcc0.ɵɵtemplate(4, NgxIntlTelInputComponent_div_4_Template, 2, 1, "div", 4);
+        ɵngcc0.ɵɵelement(5, "div", 5);
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵtemplate(6, NgxIntlTelInputComponent_div_6_Template, 7, 4, "div", 6);
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵelementStart(7, "input", 7, 8);
+        ɵngcc0.ɵɵlistener("blur", function NgxIntlTelInputComponent_Template_input_blur_7_listener() { return ctx.onTouched(); })("keypress", function NgxIntlTelInputComponent_Template_input_keypress_7_listener($event) { return ctx.onInputKeyPress($event); })("ngModelChange", function NgxIntlTelInputComponent_Template_input_ngModelChange_7_listener($event) { return ctx.phoneNumber = $event; })("ngModelChange", function NgxIntlTelInputComponent_Template_input_ngModelChange_7_listener() { return ctx.onPhoneNumberChange(); });
+        ɵngcc0.ɵɵelementEnd();
+        ɵngcc0.ɵɵelementEnd();
+    } if (rf & 2) {
+        ɵngcc0.ɵɵproperty("ngClass", ctx.separateDialCodeClass);
+        ɵngcc0.ɵɵadvance(1);
+        ɵngcc0.ɵɵproperty("ngClass", ɵngcc0.ɵɵpureFunction1(13, _c1, ctx.disabled))("isDisabled", ctx.disabled);
+        ɵngcc0.ɵɵadvance(2);
+        ɵngcc0.ɵɵproperty("ngClass", ctx.selectedCountry == null ? null : ctx.selectedCountry.flagClass);
+        ɵngcc0.ɵɵadvance(1);
+        ɵngcc0.ɵɵproperty("ngIf", ctx.separateDialCode);
+        ɵngcc0.ɵɵadvance(3);
+        ɵngcc0.ɵɵproperty("mask", ctx.phoneMask)("id", ctx.inputId)("ngClass", ctx.cssClass)("ngModel", ctx.phoneNumber)("disabled", ctx.disabled)("placeholder", ctx.resolvePlaceholder());
+        ɵngcc0.ɵɵattribute("maxLength", ctx.maxLength)("validation", ctx.phoneValidation);
+    } }, directives: function () { return [ɵngcc1.NgClass, ɵngcc2.BsDropdownDirective, ɵngcc2.BsDropdownToggleDirective, ɵngcc1.NgIf, ɵngcc2.BsDropdownMenuDirective, ɵngcc3.DefaultValueAccessor, MaskDirective, ɵngcc3.NgControlStatus, ɵngcc3.NgModel, NativeElementInjectorDirective, ɵngcc1.NgForOf]; }, styles: [".dropup[_ngcontent-%COMP%], .dropright[_ngcontent-%COMP%], .dropdown[_ngcontent-%COMP%], .dropleft[_ngcontent-%COMP%]{position:relative}.dropdown-toggle[_ngcontent-%COMP%]{white-space:nowrap}.dropdown-toggle[_ngcontent-%COMP%]:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid;border-right:.3em solid transparent;border-bottom:0;border-left:.3em solid transparent}.dropdown-toggle[_ngcontent-%COMP%]:empty:after{margin-left:0}.dropdown-menu[_ngcontent-%COMP%]{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.dropdown-menu-left[_ngcontent-%COMP%]{right:auto;left:0}.dropdown-menu-right[_ngcontent-%COMP%]{right:0;left:auto}@media (min-width: 576px){.dropdown-menu-sm-left[_ngcontent-%COMP%]{right:auto;left:0}.dropdown-menu-sm-right[_ngcontent-%COMP%]{right:0;left:auto}}@media (min-width: 768px){.dropdown-menu-md-left[_ngcontent-%COMP%]{right:auto;left:0}.dropdown-menu-md-right[_ngcontent-%COMP%]{right:0;left:auto}}@media (min-width: 992px){.dropdown-menu-lg-left[_ngcontent-%COMP%]{right:auto;left:0}.dropdown-menu-lg-right[_ngcontent-%COMP%]{right:0;left:auto}}@media (min-width: 1200px){.dropdown-menu-xl-left[_ngcontent-%COMP%]{right:auto;left:0}.dropdown-menu-xl-right[_ngcontent-%COMP%]{right:0;left:auto}}.dropup[_ngcontent-%COMP%]   .dropdown-menu[_ngcontent-%COMP%]{top:auto;bottom:100%;margin-top:0;margin-bottom:.125rem}.dropup[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:0;border-right:.3em solid transparent;border-bottom:.3em solid;border-left:.3em solid transparent}.dropup[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:empty:after{margin-left:0}.dropright[_ngcontent-%COMP%]   .dropdown-menu[_ngcontent-%COMP%]{top:0;right:auto;left:100%;margin-top:0;margin-left:.125rem}.dropright[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid transparent;border-right:0;border-bottom:.3em solid transparent;border-left:.3em solid}.dropright[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:empty:after{margin-left:0}.dropright[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:after{vertical-align:0}.dropleft[_ngcontent-%COMP%]   .dropdown-menu[_ngcontent-%COMP%]{top:0;right:100%;left:auto;margin-top:0;margin-right:.125rem}.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\"}.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:after{display:none}.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:before{display:inline-block;margin-right:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid transparent;border-right:.3em solid;border-bottom:.3em solid transparent}.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:empty:after{margin-left:0}.dropleft[_ngcontent-%COMP%]   .dropdown-toggle[_ngcontent-%COMP%]:before{vertical-align:0}.dropdown-menu[x-placement^=top][_ngcontent-%COMP%], .dropdown-menu[x-placement^=right][_ngcontent-%COMP%], .dropdown-menu[x-placement^=bottom][_ngcontent-%COMP%], .dropdown-menu[x-placement^=left][_ngcontent-%COMP%]{right:auto;bottom:auto}.dropdown-divider[_ngcontent-%COMP%]{height:0;margin:.5rem 0;overflow:hidden;border-top:1px solid #e9ecef}.dropdown-item[_ngcontent-%COMP%]{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background-color:transparent;border:0}.dropdown-item[_ngcontent-%COMP%]:hover, .dropdown-item[_ngcontent-%COMP%]:focus{color:#16181b;text-decoration:none;background-color:#f8f9fa}.dropdown-item.active[_ngcontent-%COMP%], .dropdown-item[_ngcontent-%COMP%]:active{color:#fff;text-decoration:none;background-color:#007bff}.dropdown-item.disabled[_ngcontent-%COMP%], .dropdown-item[_ngcontent-%COMP%]:disabled{color:#6c757d;pointer-events:none;background-color:transparent}.dropdown-menu.show[_ngcontent-%COMP%]{display:block}.dropdown-header[_ngcontent-%COMP%]{display:block;padding:.5rem 1.5rem;margin-bottom:0;font-size:.875rem;color:#6c757d;white-space:nowrap}.dropdown-item-text[_ngcontent-%COMP%]{display:block;padding:.25rem 1.5rem;color:#212529}", "li.iti__country[_ngcontent-%COMP%]:hover{background-color:#0000000d}.iti__selected-flag.dropdown-toggle[_ngcontent-%COMP%]:after{content:none}.iti__flag-container.disabled[_ngcontent-%COMP%]{cursor:default!important}.iti.iti--allow-dropdown[_ngcontent-%COMP%]   .flag-container.disabled[_ngcontent-%COMP%]:hover   .iti__selected-flag[_ngcontent-%COMP%]{background:none}.country-dropdown[_ngcontent-%COMP%]{border:1px solid #ccc;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:1px;border-collapse:collapse}.search-container[_ngcontent-%COMP%]{position:relative}.search-container[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]{width:100%;border:none;border-bottom:1px solid #ccc;padding-left:10px}.search-icon[_ngcontent-%COMP%]{position:absolute;z-index:2;width:25px;margin:1px 10px}.iti__country-list[_ngcontent-%COMP%]{position:relative;border:none}.iti[_ngcontent-%COMP%]   input#country-search-box[_ngcontent-%COMP%]{padding-left:6px}.iti[_ngcontent-%COMP%]   .selected-dial-code[_ngcontent-%COMP%]{margin-left:6px}.iti.separate-dial-code[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4[_ngcontent-%COMP%]   .iti__selected-flag[_ngcontent-%COMP%]{width:93px}.iti.separate-dial-code[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3[_ngcontent-%COMP%]   input[_ngcontent-%COMP%], .iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4[_ngcontent-%COMP%]   input[_ngcontent-%COMP%]{padding-left:98px}"] });
 NgxIntlTelInputComponent.ctorParameters = () => [
     { type: CountryCode },
     { type: ChangeDetectorRef }
@@ -2133,6 +2257,70 @@ NgxIntlTelInputComponent.propDecorators = {
     countryChange: [{ type: Output }],
     countryList: [{ type: ViewChild, args: ['countryList',] }]
 };
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NgxIntlTelInputComponent, [{
+        type: Component,
+        args: [{
+                // tslint:disable-next-line: component-selector
+                selector: 'ngx-intl-tel-input',
+                template: "<div class=\"iti iti--allow-dropdown\"\n\t[ngClass]=\"separateDialCodeClass\">\n\t<div class=\"iti__flag-container\"\n\t\tdropdown\n\t\t[ngClass]=\"{'disabled': disabled}\"\n\t\t[isDisabled]=\"disabled\">\n\t\t<div class=\"iti__selected-flag dropdown-toggle\"\n\t\t\tdropdownToggle>\n\t\t\t<div class=\"iti__flag\"\n\t\t\t\t[ngClass]=\"selectedCountry?.flagClass\"></div>\n\t\t\t<div *ngIf=\"separateDialCode\"\n\t\t\t\tclass=\"selected-dial-code\">+{{selectedCountry.dialCode}}</div>\n\t\t\t<div class=\"iti__arrow\"></div>\n\t\t</div>\n\t\t<div *dropdownMenu\n\t\t\tclass=\"dropdown-menu country-dropdown\">\n\t\t\t<div class=\"search-container\"\n\t\t\t\t*ngIf=\"searchCountryFlag && searchCountryField\">\n\t\t\t\t<input id=\"country-search-box\"\n\t\t\t\t\t[(ngModel)]=\"countrySearchText\"\n\t\t\t\t\t(keyup)=\"searchCountry()\"\n\t\t\t\t\t(click)=\"$event.stopPropagation()\"\n\t\t\t\t\t[placeholder]=\"searchCountryPlaceholder\"\n\t\t\t\t\tautofocus>\n\t\t\t</div>\n\t\t\t<ul class=\"iti__country-list\"\n\t\t\t\t#countryList>\n\t\t\t\t<li class=\"iti__country iti__preferred\"\n\t\t\t\t\t*ngFor=\"let country of preferredCountriesInDropDown\"\n\t\t\t\t\t(click)=\"onCountrySelect(country, focusable)\"\n\t\t\t\t\t[id]=\"country.htmlId+'-preferred'\">\n\t\t\t\t\t<div class=\"iti__flag-box\">\n\t\t\t\t\t\t<div class=\"iti__flag\"\n\t\t\t\t\t\t\t[ngClass]=\"country.flagClass\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span class=\"iti__country-name\">{{country.name}}</span>\n\t\t\t\t\t<span class=\"iti__dial-code\">+{{country.dialCode}}</span>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"iti__divider\"\n\t\t\t\t\t*ngIf=\"preferredCountriesInDropDown?.length\"></li>\n\t\t\t\t<li class=\"iti__country iti__standard\"\n\t\t\t\t\t*ngFor=\"let country of allCountries\"\n\t\t\t\t\t(click)=\"onCountrySelect(country, focusable)\"\n\t\t\t\t\t[id]=\"country.htmlId\">\n\t\t\t\t\t<div class=\"iti__flag-box\">\n\t\t\t\t\t\t<div class=\"iti__flag\"\n\t\t\t\t\t\t\t[ngClass]=\"country.flagClass\"></div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<span class=\"iti__country-name\">{{country.name}}</span>\n\t\t\t\t\t<span class=\"iti__dial-code\">+{{country.dialCode}}</span>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n\t<input type=\"tel\"\n\t\t\t\t [mask]=\"phoneMask\"\n\t\t[id]=\"inputId\"\n\t\tautocomplete=\"off\"\n\t\t[ngClass]=\"cssClass\"\n\t\t(blur)=\"onTouched()\"\n\t\t(keypress)=\"onInputKeyPress($event)\"\n\t\t[(ngModel)]=\"phoneNumber\"\n\t\t(ngModelChange)=\"onPhoneNumberChange()\"\n\t\t[disabled]=\"disabled\"\n\t\t[placeholder]=\"resolvePlaceholder()\"\n\t\t[attr.maxLength]=\"maxLength\"\n\t\t[attr.validation]=\"phoneValidation\"\n\t\t#focusable>\n</div>\n",
+                providers: [
+                    CountryCode,
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        // tslint:disable-next-line:no-forward-ref
+                        useExisting: forwardRef(() => NgxIntlTelInputComponent),
+                        multi: true
+                    },
+                    {
+                        provide: NG_VALIDATORS,
+                        useValue: ɵ0,
+                        multi: true
+                    },
+                ],
+                styles: [".dropup,.dropright,.dropdown,.dropleft{position:relative}.dropdown-toggle{white-space:nowrap}.dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid;border-right:.3em solid transparent;border-bottom:0;border-left:.3em solid transparent}.dropdown-toggle:empty:after{margin-left:0}.dropdown-menu{position:absolute;top:100%;left:0;z-index:1000;display:none;float:left;min-width:10rem;padding:.5rem 0;margin:.125rem 0 0;font-size:1rem;color:#212529;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.15);border-radius:.25rem}.dropdown-menu-left{right:auto;left:0}.dropdown-menu-right{right:0;left:auto}@media (min-width: 576px){.dropdown-menu-sm-left{right:auto;left:0}.dropdown-menu-sm-right{right:0;left:auto}}@media (min-width: 768px){.dropdown-menu-md-left{right:auto;left:0}.dropdown-menu-md-right{right:0;left:auto}}@media (min-width: 992px){.dropdown-menu-lg-left{right:auto;left:0}.dropdown-menu-lg-right{right:0;left:auto}}@media (min-width: 1200px){.dropdown-menu-xl-left{right:auto;left:0}.dropdown-menu-xl-right{right:0;left:auto}}.dropup .dropdown-menu{top:auto;bottom:100%;margin-top:0;margin-bottom:.125rem}.dropup .dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:0;border-right:.3em solid transparent;border-bottom:.3em solid;border-left:.3em solid transparent}.dropup .dropdown-toggle:empty:after{margin-left:0}.dropright .dropdown-menu{top:0;right:auto;left:100%;margin-top:0;margin-left:.125rem}.dropright .dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid transparent;border-right:0;border-bottom:.3em solid transparent;border-left:.3em solid}.dropright .dropdown-toggle:empty:after{margin-left:0}.dropright .dropdown-toggle:after{vertical-align:0}.dropleft .dropdown-menu{top:0;right:100%;left:auto;margin-top:0;margin-right:.125rem}.dropleft .dropdown-toggle:after{display:inline-block;margin-left:.255em;vertical-align:.255em;content:\"\"}.dropleft .dropdown-toggle:after{display:none}.dropleft .dropdown-toggle:before{display:inline-block;margin-right:.255em;vertical-align:.255em;content:\"\";border-top:.3em solid transparent;border-right:.3em solid;border-bottom:.3em solid transparent}.dropleft .dropdown-toggle:empty:after{margin-left:0}.dropleft .dropdown-toggle:before{vertical-align:0}.dropdown-menu[x-placement^=top],.dropdown-menu[x-placement^=right],.dropdown-menu[x-placement^=bottom],.dropdown-menu[x-placement^=left]{right:auto;bottom:auto}.dropdown-divider{height:0;margin:.5rem 0;overflow:hidden;border-top:1px solid #e9ecef}.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background-color:transparent;border:0}.dropdown-item:hover,.dropdown-item:focus{color:#16181b;text-decoration:none;background-color:#f8f9fa}.dropdown-item.active,.dropdown-item:active{color:#fff;text-decoration:none;background-color:#007bff}.dropdown-item.disabled,.dropdown-item:disabled{color:#6c757d;pointer-events:none;background-color:transparent}.dropdown-menu.show{display:block}.dropdown-header{display:block;padding:.5rem 1.5rem;margin-bottom:0;font-size:.875rem;color:#6c757d;white-space:nowrap}.dropdown-item-text{display:block;padding:.25rem 1.5rem;color:#212529}\n", "li.iti__country:hover{background-color:#0000000d}.iti__selected-flag.dropdown-toggle:after{content:none}.iti__flag-container.disabled{cursor:default!important}.iti.iti--allow-dropdown .flag-container.disabled:hover .iti__selected-flag{background:none}.country-dropdown{border:1px solid #ccc;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding:1px;border-collapse:collapse}.search-container{position:relative}.search-container input{width:100%;border:none;border-bottom:1px solid #ccc;padding-left:10px}.search-icon{position:absolute;z-index:2;width:25px;margin:1px 10px}.iti__country-list{position:relative;border:none}.iti input#country-search-box{padding-left:6px}.iti .selected-dial-code{margin-left:6px}.iti.separate-dial-code .iti__selected-flag,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 .iti__selected-flag,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 .iti__selected-flag,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 .iti__selected-flag{width:93px}.iti.separate-dial-code input,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-2 input,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-3 input,.iti.separate-dial-code.iti--allow-dropdown.iti-sdc-4 input{padding-left:98px}\n"]
+            }]
+    }], function () { return [{ type: CountryCode }, { type: ɵngcc0.ChangeDetectorRef }]; }, { value: [{
+            type: Input
+        }], preferredCountries: [{
+            type: Input
+        }], enablePlaceholder: [{
+            type: Input
+        }], numberFormat: [{
+            type: Input
+        }], cssClass: [{
+            type: Input
+        }], onlyCountries: [{
+            type: Input
+        }], enableAutoCountrySelect: [{
+            type: Input
+        }], searchCountryFlag: [{
+            type: Input
+        }], searchCountryField: [{
+            type: Input
+        }], searchCountryPlaceholder: [{
+            type: Input
+        }], maxLength: [{
+            type: Input
+        }], selectFirstCountry: [{
+            type: Input
+        }], phoneValidation: [{
+            type: Input
+        }], inputId: [{
+            type: Input
+        }], separateDialCode: [{
+            type: Input
+        }], defaultPhoneMask: [{
+            type: Input
+        }], countryChange: [{
+            type: Output
+        }], customPlaceholder: [{
+            type: Input
+        }], selectedCountryISO: [{
+            type: Input
+        }], countryList: [{
+            type: ViewChild,
+            args: ['countryList']
+        }] }); })();
 
 /*
 "Property 'nativeElement' does not exist on type 'FormControl'".
@@ -2153,16 +2341,19 @@ class NativeElementInjectorDirective {
         }
     }
 }
-NativeElementInjectorDirective.decorators = [
-    { type: Directive, args: [{
-                // tslint:disable-next-line: directive-selector
-                selector: '[ngModel], [formControl], [formControlName]',
-            },] }
-];
+NativeElementInjectorDirective.ɵfac = function NativeElementInjectorDirective_Factory(t) { return new (t || NativeElementInjectorDirective)(ɵngcc0.ɵɵdirectiveInject(ɵngcc3.NgControl), ɵngcc0.ɵɵdirectiveInject(ɵngcc0.ElementRef)); };
+NativeElementInjectorDirective.ɵdir = /*@__PURE__*/ ɵngcc0.ɵɵdefineDirective({ type: NativeElementInjectorDirective, selectors: [["", "ngModel", ""], ["", "formControl", ""], ["", "formControlName", ""]] });
 NativeElementInjectorDirective.ctorParameters = () => [
     { type: NgControl },
     { type: ElementRef }
 ];
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NativeElementInjectorDirective, [{
+        type: Directive,
+        args: [{
+                // tslint:disable-next-line: directive-selector
+                selector: '[ngModel], [formControl], [formControlName]'
+            }]
+    }], function () { return [{ type: ɵngcc3.NgControl }, { type: ɵngcc0.ElementRef }]; }, null); })();
 
 const config = new InjectionToken('config');
 const NEW_CONFIG = new InjectionToken('NEW_CONFIG');
@@ -2427,12 +2618,17 @@ class MaskApplierService {
             && this.maskAvailablePatterns[maskSymbol].pattern.test(inputSymbol);
     }
 }
-MaskApplierService.decorators = [
-    { type: Injectable }
-];
+MaskApplierService.ɵfac = function MaskApplierService_Factory(t) { return new (t || MaskApplierService)(ɵngcc0.ɵɵinject(config)); };
+MaskApplierService.ɵprov = /*@__PURE__*/ ɵngcc0.ɵɵdefineInjectable({ token: MaskApplierService, factory: MaskApplierService.ɵfac });
 MaskApplierService.ctorParameters = () => [
     { type: undefined, decorators: [{ type: Inject, args: [config,] }] }
 ];
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(MaskApplierService, [{
+        type: Injectable
+    }], function () { return [{ type: undefined, decorators: [{
+                type: Inject,
+                args: [config]
+            }] }]; }, null); })();
 
 class MaskService extends MaskApplierService {
     constructor(
@@ -2524,15 +2720,23 @@ class MaskService extends MaskApplierService {
         return new RegExp(specialCharactersForRemove.map((item) => `\\${item}`).join('|'), 'gi');
     }
 }
-MaskService.decorators = [
-    { type: Injectable }
-];
+MaskService.ɵfac = function MaskService_Factory(t) { return new (t || MaskService)(ɵngcc0.ɵɵinject(DOCUMENT), ɵngcc0.ɵɵinject(config), ɵngcc0.ɵɵinject(ɵngcc0.ElementRef), ɵngcc0.ɵɵinject(ɵngcc0.Renderer2)); };
+MaskService.ɵprov = /*@__PURE__*/ ɵngcc0.ɵɵdefineInjectable({ token: MaskService, factory: MaskService.ɵfac });
 MaskService.ctorParameters = () => [
     { type: undefined, decorators: [{ type: Inject, args: [DOCUMENT,] }] },
     { type: undefined, decorators: [{ type: Inject, args: [config,] }] },
     { type: ElementRef },
     { type: Renderer2 }
 ];
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(MaskService, [{
+        type: Injectable
+    }], function () { return [{ type: undefined, decorators: [{
+                type: Inject,
+                args: [DOCUMENT]
+            }] }, { type: undefined, decorators: [{
+                type: Inject,
+                args: [config]
+            }] }, { type: ɵngcc0.ElementRef }, { type: ɵngcc0.Renderer2 }]; }, null); })();
 
 class MaskDirective {
     constructor(
@@ -2719,19 +2923,17 @@ class MaskDirective {
             }, '') || maskExp;
     }
 }
-MaskDirective.decorators = [
-    { type: Directive, args: [{
-                selector: '[mask]',
-                providers: [
-                    {
-                        provide: NG_VALUE_ACCESSOR,
-                        useExisting: forwardRef(() => MaskDirective),
-                        multi: true
-                    },
-                    MaskService
-                ]
-            },] }
-];
+MaskDirective.ɵfac = function MaskDirective_Factory(t) { return new (t || MaskDirective)(ɵngcc0.ɵɵdirectiveInject(DOCUMENT), ɵngcc0.ɵɵdirectiveInject(MaskService)); };
+MaskDirective.ɵdir = /*@__PURE__*/ ɵngcc0.ɵɵdefineDirective({ type: MaskDirective, selectors: [["", "mask", ""]], hostBindings: function MaskDirective_HostBindings(rf, ctx) { if (rf & 1) {
+        ɵngcc0.ɵɵlistener("input", function MaskDirective_input_HostBindingHandler($event) { return ctx.onInput($event); })("blur", function MaskDirective_blur_HostBindingHandler() { return ctx.onBlur(); })("click", function MaskDirective_click_HostBindingHandler($event) { return ctx.onFocus($event); })("keydown", function MaskDirective_keydown_HostBindingHandler($event) { return ctx.a($event); })("paste", function MaskDirective_paste_HostBindingHandler() { return ctx.onPaste(); });
+    } }, inputs: { maskExpression: ["mask", "maskExpression"], specialCharacters: "specialCharacters", patterns: "patterns", prefix: "prefix", sufix: "sufix", dropSpecialCharacters: "dropSpecialCharacters", showMaskTyped: "showMaskTyped", showTemplate: "showTemplate", clearIfNotMatch: "clearIfNotMatch" }, features: [ɵngcc0.ɵɵProvidersFeature([
+            {
+                provide: NG_VALUE_ACCESSOR,
+                useExisting: forwardRef(() => MaskDirective),
+                multi: true
+            },
+            MaskService
+        ])] });
 MaskDirective.ctorParameters = () => [
     { type: undefined, decorators: [{ type: Inject, args: [DOCUMENT,] }] },
     { type: MaskService }
@@ -2752,6 +2954,57 @@ MaskDirective.propDecorators = {
     a: [{ type: HostListener, args: ['keydown', ['$event'],] }],
     onPaste: [{ type: HostListener, args: ['paste',] }]
 };
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(MaskDirective, [{
+        type: Directive,
+        args: [{
+                selector: '[mask]',
+                providers: [
+                    {
+                        provide: NG_VALUE_ACCESSOR,
+                        useExisting: forwardRef(() => MaskDirective),
+                        multi: true
+                    },
+                    MaskService
+                ]
+            }]
+    }], function () { return [{ type: undefined, decorators: [{
+                type: Inject,
+                args: [DOCUMENT]
+            }] }, { type: MaskService }]; }, { maskExpression: [{
+            type: Input,
+            args: ['mask']
+        }], specialCharacters: [{
+            type: Input
+        }], patterns: [{
+            type: Input
+        }], prefix: [{
+            type: Input
+        }], sufix: [{
+            type: Input
+        }], dropSpecialCharacters: [{
+            type: Input
+        }], showMaskTyped: [{
+            type: Input
+        }], showTemplate: [{
+            type: Input
+        }], clearIfNotMatch: [{
+            type: Input
+        }], onInput: [{
+            type: HostListener,
+            args: ['input', ['$event']]
+        }], onBlur: [{
+            type: HostListener,
+            args: ['blur']
+        }], onFocus: [{
+            type: HostListener,
+            args: ['click', ['$event']]
+        }], a: [{
+            type: HostListener,
+            args: ['keydown', ['$event']]
+        }], onPaste: [{
+            type: HostListener,
+            args: ['paste']
+        }] }); })();
 
 class MaskPipe {
     constructor(_maskService) {
@@ -2767,15 +3020,18 @@ class MaskPipe {
         return this._maskService.applyMaskWithPattern(`${value}`, mask);
     }
 }
-MaskPipe.decorators = [
-    { type: Pipe, args: [{
-                name: 'mask',
-                pure: true
-            },] }
-];
+MaskPipe.ɵfac = function MaskPipe_Factory(t) { return new (t || MaskPipe)(ɵngcc0.ɵɵdirectiveInject(MaskApplierService, 16)); };
+MaskPipe.ɵpipe = /*@__PURE__*/ ɵngcc0.ɵɵdefinePipe({ name: "mask", type: MaskPipe, pure: true });
 MaskPipe.ctorParameters = () => [
     { type: MaskApplierService }
 ];
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(MaskPipe, [{
+        type: Pipe,
+        args: [{
+                name: 'mask',
+                pure: true
+            }]
+    }], function () { return [{ type: MaskApplierService }]; }, null); })();
 
 class NgxMaskModule {
     static forRoot(configValue) {
@@ -2804,13 +3060,18 @@ class NgxMaskModule {
         };
     }
 }
-NgxMaskModule.decorators = [
-    { type: NgModule, args: [{
+NgxMaskModule.ɵfac = function NgxMaskModule_Factory(t) { return new (t || NgxMaskModule)(); };
+NgxMaskModule.ɵmod = /*@__PURE__*/ ɵngcc0.ɵɵdefineNgModule({ type: NgxMaskModule });
+NgxMaskModule.ɵinj = /*@__PURE__*/ ɵngcc0.ɵɵdefineInjector({ providers: [MaskApplierService] });
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NgxMaskModule, [{
+        type: NgModule,
+        args: [{
                 providers: [MaskApplierService],
                 exports: [MaskDirective, MaskPipe],
                 declarations: [MaskDirective, MaskPipe]
-            },] }
-];
+            }]
+    }], null, null); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NgxMaskModule, { declarations: [MaskDirective, MaskPipe], exports: [MaskDirective, MaskPipe] }); })();
 /**
  * @internal
  */
@@ -2821,8 +3082,18 @@ function _configFactory(initConfig, configValue) {
 const dropdownModuleForRoot = BsDropdownModule.forRoot();
 class NgxIntlTelInputModule {
 }
-NgxIntlTelInputModule.decorators = [
-    { type: NgModule, args: [{
+NgxIntlTelInputModule.ɵfac = function NgxIntlTelInputModule_Factory(t) { return new (t || NgxIntlTelInputModule)(); };
+NgxIntlTelInputModule.ɵmod = /*@__PURE__*/ ɵngcc0.ɵɵdefineNgModule({ type: NgxIntlTelInputModule });
+NgxIntlTelInputModule.ɵinj = /*@__PURE__*/ ɵngcc0.ɵɵdefineInjector({ imports: [[
+            CommonModule,
+            FormsModule,
+            ReactiveFormsModule,
+            dropdownModuleForRoot,
+            NgxMaskModule.forRoot(),
+        ]] });
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && ɵngcc0.ɵsetClassMetadata(NgxIntlTelInputModule, [{
+        type: NgModule,
+        args: [{
                 declarations: [NgxIntlTelInputComponent, NativeElementInjectorDirective],
                 imports: [
                     CommonModule,
@@ -2831,9 +3102,12 @@ NgxIntlTelInputModule.decorators = [
                     dropdownModuleForRoot,
                     NgxMaskModule.forRoot(),
                 ],
-                exports: [NgxIntlTelInputComponent, NativeElementInjectorDirective],
-            },] }
-];
+                exports: [NgxIntlTelInputComponent, NativeElementInjectorDirective]
+            }]
+    }], null, null); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && ɵngcc0.ɵɵsetNgModuleScope(NgxIntlTelInputModule, { declarations: function () { return [NgxIntlTelInputComponent, NativeElementInjectorDirective]; }, imports: function () { return [CommonModule,
+        FormsModule,
+        ReactiveFormsModule, ɵngcc2.BsDropdownModule, NgxMaskModule]; }, exports: function () { return [NgxIntlTelInputComponent, NativeElementInjectorDirective]; } }); })();
 
 /*
  * Public API Surface of ngx-intl-tel-input
@@ -2844,4 +3118,5 @@ NgxIntlTelInputModule.decorators = [
  */
 
 export { CountryISO, NativeElementInjectorDirective, NgxIntlTelInputComponent, NgxIntlTelInputModule, PhoneNumberFormat, SearchCountryField, dropdownModuleForRoot, ɵ0, CountryCode as ɵa, phoneNumberValidator as ɵb, NgxMaskModule as ɵc, _configFactory as ɵd, MaskApplierService as ɵe, config as ɵg, NEW_CONFIG as ɵh, INITIAL_CONFIG as ɵi, initialConfig as ɵj, MaskDirective as ɵk, MaskService as ɵl, MaskPipe as ɵm };
+
 //# sourceMappingURL=ngx-intl-tel-input.js.map

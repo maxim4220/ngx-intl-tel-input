@@ -1,4 +1,5 @@
 import { IConfig } from './config';
+import * as ɵngcc0 from '@angular/core';
 export declare class MaskApplierService {
     protected _config: IConfig;
     dropSpecialCharacters: IConfig['dropSpecialCharacters'];
@@ -17,4 +18,8 @@ export declare class MaskApplierService {
     _findSpecialChar(inputSymbol: string): undefined | string;
     private _checkSymbolMask;
     private separator;
+    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<MaskApplierService, never>;
+    static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<MaskApplierService>;
 }
+
+//# sourceMappingURL=mask-applier.service.d.ts.map

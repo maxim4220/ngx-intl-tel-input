@@ -10,3 +10,5 @@ export { MaskDirective as ɵk } from './lib/ngx-mask/mask.directive';
 export { MaskPipe as ɵm } from './lib/ngx-mask/mask.pipe';
 export { MaskService as ɵl } from './lib/ngx-mask/mask.service';
 export { NgxMaskModule as ɵc, _configFactory as ɵd } from './lib/ngx-mask/ngx-mask.module';
+
+//# sourceMappingURL=ngx-intl-tel-input.d.ts.map
